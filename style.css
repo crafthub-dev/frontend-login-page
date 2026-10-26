@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid;
+  padding: 16px;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.form-group input {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.input-container input {
+  flex: 1;
+}
+
+.eye-toggle {
+  cursor: pointer;
+}
+
+.eye-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.submit-btn {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-arrow {
+  display: none;
+}
+
+.switch-auth {
+  margin-top: 15px;
+}
+
+.hidden {
+  display: none !important;
+}
